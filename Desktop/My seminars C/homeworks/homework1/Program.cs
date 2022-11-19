@@ -21,6 +21,7 @@ a = -9 b = -3 -> max = -3
 5 -> 2, 4
 8 -> 2, 4, 6, 8*/
 
+ /* Задача 2
  Console.WriteLine("Input number 1");
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Imput number 2");
@@ -37,6 +38,55 @@ a = -9 b = -3 -> max = -3
             else
             {
                 Console.WriteLine("num 1 == num 2");
-            }
+            }*/
+
+/*Задача 4
+Console.WriteLine("Input a");
+            int  a = Convert.ToInt32(Console.ReadLine());
+ Console.WriteLine("Imput b");
+            int b  = Convert.ToInt32(Console.ReadLine());
+ Console.WriteLine("Imput  c");
+            int c =  Convert.ToInt32(Console.ReadLine());
+            
+            int max = a;
+
+            if (a > max) max = a;
+            if (b > max) max = b;
+            if (c> max) max = c;
+            Console.Write("max =");
+            Console.WriteLine(max);*/
+
+/*Задача 6
+Console.WriteLine("Imput number");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if(number % 2 == 0)
+{
+    Console.WriteLine(" Yes");
+
+}
+else
+{
+    Console.WriteLine( "No");
+}*/
+
+/* Хадача 8
+Console.Write("Введите число");
+int number = Convert.ToInt32(Console.ReadLine());
+int evenNumber = 2;
+
+if(number > 1)
+{
+    while(evenNumber <= number)
+    {
+        Console.Write(evenNumber + " ");
+        evenNumber = evenNumber + 2;
+    }
+}/*
+
+
+
+
+
 
 
