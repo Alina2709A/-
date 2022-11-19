@@ -29,15 +29,17 @@ a = -9 b = -3 -> max = -3
            
             if(num1 > num2)
             {
-                Console.WriteLine("num 1 > num2");
+            max = num1
+            min = num2
             }
-            else if (num1 < num2)
+            else 
             {
-                Console.WriteLine("num 1 < num 2");
+                   max = num2;
+                  min = num1;
             }
             else
             {
-                Console.WriteLine("num 1 == num 2");
+                Console.WriteLine("max = " + max + " и " + "min = " + min);
             }*/
 
 /*Задача 4
